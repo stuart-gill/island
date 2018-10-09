@@ -1,5 +1,8 @@
 body{
   background-color:lightblue;
+  background-position:center;
+  background-size:cover;
+  background-blend-mode: lighten;
 }
 
 h1 {
@@ -10,23 +13,22 @@ h1 {
 h2 {
   font-style: italic;
   text-align: center;
+  color: black;
+}
+
+h3 {
+  font-size: 32px;
+  color: yellow;
 }
 
 p {
   font-family: sans-serif;
+  font-size: 18px;
 }
 
 ul {
   font-size: 20px;
   line-height: 30px;
-}
-/* Container holding the image and the text */
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-family: cursive;
-    font-weight: bolder;
 }
 /* Centered text */
 .centered {
@@ -36,4 +38,13 @@ ul {
     transform: translate(-50%, -50%);
     font-size: 128px;
     color: White;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    opacity: 0.8;
 }
